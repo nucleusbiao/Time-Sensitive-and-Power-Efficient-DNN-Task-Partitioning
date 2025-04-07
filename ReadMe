@@ -1,0 +1,8 @@
+This is the code for our paper "Bayesian Optimization-Based Time-Sensitive and Power-Efficient DNN Task Partitioning in a Dynamic IoT Computing System" published at IEEE INTERNET OF THINGS JOURNAL. If you are using it, please cite us paper.
+@article{hu2025bayesian,
+  title={Bayesian Optimization-Based Time-Sensitive and Power-Efficient DNN Task Partitioning in a Dynamic IoT Computing System},
+  author={Hu, Biao and Wang, Qianru and Yang, Xincheng and Wu, Gang},
+  journal={IEEE Internet of Things Journal},
+  year={2025},
+  publisher={IEEE}
+}
