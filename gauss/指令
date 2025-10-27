@@ -1,0 +1,23 @@
+gauss：(ANS/net2/)
+
+python3 main_edgecontrolgauss.py --devicelist k,u,tx2,ly --portlist 8086,8087,8088,8089
+
+python3 main_clientcontrolgaussv2.py --host 192.168.31.33 --port 8086 --devicename k --bandrand
+
+python3 main_clientcontrolgaussv2.py --host 192.168.31.33 --port 8087 --devicename u --bandrand
+
+python3 main_clientcontrolgaussv2.py --host 192.168.31.33 --port 8088 --devicename tx2 --bandrand
+
+python3 main_clientcontrolgaussv2.py --host 192.168.31.33 --port 8089 --devicename ly --bandrand
+
+
+Client、edge 和最优：
+(pytorch) qianru@gxy435:~/ANS/net2$ python3 main_edgecontrolceo.py --devicelist k,u,tx2,ly --portlist 8081,8082,8083,8084 --mode edge
+
+(pytorch) k@k-desktop:~/QL$ python3 main_clientcontrolceo.py --host 192.168.31.33 --port 8081 --devicename k --bandrand
+
+ubuntu@ubuntu:~/QL$ python3 main_clientcontrolceo.py --host 192.168.31.33 --port 8082 --devicename u --bandrand
+
+yzl@ubuntu:~/QL$ python3 main_clientcontrolceo.py --host 192.168.31.33 --port 8083 --devicename tx2 --bandrand
+
+(yolov5_env) ly@lynxi:~/QL$ python3 main_clientcontrolceo.py --host 192.168.31.33 --port 8084 --devicename ly  --bandrand
