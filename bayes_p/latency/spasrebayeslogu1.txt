@@ -1,0 +1,1 @@
+partition_point1     power1         powercount1         poweraver     suggest_time   blackbox_time    update_time   iteratetime

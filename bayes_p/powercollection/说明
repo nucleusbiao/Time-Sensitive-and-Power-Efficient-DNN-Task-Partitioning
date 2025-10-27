@@ -1,0 +1,10 @@
+功耗数据收集
+随机选取分割点
+
+服务器：
+(pytorch) qianru@gxy435:~/bayes_p/$ python3  powercollection/main_edgecontrolgauss_mti_bayes_vp.py --devicelist k --portlist 8080
+用户设备：
+(pytorch) k@k-desktop:~/bayes_p$ python3 powercollection/main_clientcontrolbayes_vp.py --host 192.168.31.33 --port  8080 --hostp 连接功耗仪的设备ip
+
+usb连接功耗仪的设备（windows系统）：
+python3 powerofpp_vp.py
